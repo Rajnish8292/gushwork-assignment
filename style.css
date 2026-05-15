@@ -39,6 +39,7 @@ body {
   min-height: 100vh;
   background: #f8f9fb url('assets/images/noise.svg') repeat;
   overflow-x: hidden;
+  width: 100vw;
 }
 
 img {
@@ -394,7 +395,7 @@ a {
 }
 
 .desktop-nav {
-  display: none;
+  display: flex;
 }
 
 .nav-link {
@@ -1744,6 +1745,9 @@ tbody td {
   }
   .solutions-grid {
     flex-direction: column;
+  }
+  .desktop-nav {
+    display: none;
   }
 
 }
