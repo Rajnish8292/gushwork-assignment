@@ -1802,7 +1802,10 @@ tbody td {
   }
 
   .hdpe-section .section-heading {
-  width: 100%;
-}
+    width: 100%;
+  }
+  .contact-copy h2 {
+    font-size: 36px;
+  }
 
 }
